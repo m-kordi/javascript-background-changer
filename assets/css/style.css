@@ -1,0 +1,35 @@
+body{
+    display: flex;
+    background-color: gray;
+
+}
+
+#changer{
+    width: 200px;
+    height: 100px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 10px;
+    margin-left: 10px;
+    font-weight: bold;
+    font-size: larger;
+    background-color:#a8ccd7  ;
+    
+    
+}
+
+.chang{
+    color: crimson;
+}
+.c{
+    color: blue;
+}
+.o{
+    color: red;
+}
+.l{
+    color: green;
+}
+.r{
+    color: chocolate;
+}

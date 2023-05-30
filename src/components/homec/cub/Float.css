@@ -1,0 +1,51 @@
+.holder{
+    perspective: 800px;
+    width: 200px;
+    height: 200px;
+  }
+  
+  .cube {
+    width: 200px;
+    height: 200px;
+    position: relative;
+    transform-style: preserve-3d;
+  }
+  
+  .side {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: red;
+  }
+  
+  .front {
+    transform: rotateY(0deg) translateZ(100px);
+    background-image: url("../../../assets/anmie.jpg");
+    background-size: cover;
+  }
+  .right {
+    transform: rotateY(90deg) translateZ(100px);
+    background-image: url("../../../assets/anmie.jpg");
+    background-size: cover;
+  }
+  .back {
+    transform: rotateY(180deg) translateZ(100px);
+    background-image: url("../../../assets/anmie.jpg");
+    background-size: cover;
+  }
+  .left {
+    transform: rotateY(-90deg) translateZ(100px);
+    background-image: url("../../../assets/anmie.jpg");
+    background-size: cover;
+  }
+  .top {
+    transform: rotateX(90deg) translateZ(100px);
+    background-image: url("../../../assets/anmie.jpg");
+    background-size: cover;
+  }
+  .bottom {
+    transform: rotateX(-90deg) translateZ(100px);
+    background-image: url("../../../assets/anmie.jpg");
+    background-size: cover;
+  }
+  

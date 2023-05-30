@@ -1,0 +1,72 @@
+
+section {
+    position: relative;
+    padding-bottom: 60px;
+  }
+
+
+  
+  .parallax {
+    overflow: hidden;
+    letter-spacing: -2px;
+    word-spacing: 50px;
+    line-height: 0.8;
+    margin: 0;
+    white-space: nowrap;
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100%;
+  }
+  @media (max-width: 767px) {
+    .parallax {
+      word-spacing: 40px;
+    }
+}
+@media (max-width: 320px) {
+    .parallax{
+      word-spacing: 30px;
+    }
+}
+  
+  .parallax .scroller {
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 64px;
+    display: flex;
+    white-space: nowrap;
+    display: flex;
+    flex-wrap: nowrap;
+  }
+  @media (max-width: 767px) {
+    .parallax .scroller {
+      font-size: 40px;
+    }
+}
+@media (max-width: 320px) {
+    .parallax .scroller{
+      font-size: 30px;
+    }
+}
+  
+
+
+  .tec-icon{
+    width: 60px;
+    height: 60px;
+    margin-right: 8px;
+  }
+  @media (max-width: 767px) {
+    .tec-icon{
+      width: 35px;
+      height: 35px;
+      margin-right: 6px;
+    }
+}
+@media (max-width: 320px) {
+    .tec-icon{
+      width: 30px;
+      height: 30px;
+      margin-right: 4px;
+    }
+}
+  

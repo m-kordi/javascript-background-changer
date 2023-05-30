@@ -1,0 +1,57 @@
+.titleres{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.titleres h1{
+    font-size: 40px;
+}
+
+@media (max-width: 767px) {
+    .titleres h1 {
+        font-size: 28px;
+    }
+}
+@media (max-width: 320px) {
+    .titleres h1 {
+        font-size: 23px;
+    }
+}
+
+/* download -resume - button */
+.titleres .download-res{
+    height: 30px;
+    width: 220px;
+    background-color: var(--orang);
+    border: var(--orang);
+    font-size: large;
+    font-family: serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+}
+.titleres .download-res a{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+}
+@media (max-width: 767px) {
+    .titleres .download-res {
+        width: 180px;
+        font-size: medium;
+    }
+}
+
+@media (max-width: 320px) {
+    .titleres .download-res{
+        width: 160px;
+    }
+}
+
+

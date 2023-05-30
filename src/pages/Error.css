@@ -1,0 +1,14 @@
+.erorr-cont{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3%;
+}
+
+
+@media (max-width: 320px) {
+    .erorr-cont img{
+    width: 200px;
+    }
+}

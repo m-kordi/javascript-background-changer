@@ -1,0 +1,20 @@
+.titleport{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.titleport h1{
+    font-size: 40px;
+}
+
+@media (max-width: 767px) {
+    .titleport h1 {
+        font-size: 28px;
+    }
+}
+@media (max-width: 320px) {
+    .titleport h1 {
+        font-size: 23px;
+    }
+}

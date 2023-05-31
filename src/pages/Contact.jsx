@@ -1,6 +1,7 @@
 import React from 'react'
 import "./Contact.css"
 import Titleconta from '../components/contactc/titlec/Titleconta';
+import Formc from '../components/contactc/formc/Formc';
 import { useRef } from "react";
 import { useInView } from "framer-motion";
 
@@ -18,14 +19,14 @@ function Contact() {
       }}>
         <Titleconta/>
       </div>
-      {/* <div className='port-projects'
+      <div className='conta-form'
       style={{
         transform: isInView ? "none" : "translateX(-200px)",
         opacity: isInView ? 1 : 0,
         transition: "all 0.9s cubic-bezier(0.17, 0.55, 0.55, 1) 0.1s"
       }}>
-        <Projectsport/>
-      </div> */} 
+        <Formc/>
+      </div> 
       </section>
     </div>
   )

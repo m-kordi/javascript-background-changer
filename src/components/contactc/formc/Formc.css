@@ -1,0 +1,91 @@
+/* .conta-collact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+} */
+
+/* number and email */
+.comu{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+    flex-wrap: wrap;
+}
+@media (max-width: 400px) {
+    .comu .comu-icon span{
+        font-size: 14px;
+    }
+    .comu .comu-icon img{
+        width: 17px;
+        height: 15px;
+    }
+}
+@media (max-width: 340px) {
+    .comu .comu-icon span{
+        font-size: 10px;
+    }
+}
+.comu-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+}
+.comu-icon img{
+    width: 23px;
+    height: 20px;
+}
+.comu-icon span{
+    font-size: 16px;
+    color: var(--orang);
+}
+
+/* form */
+.conta-collact form{
+    display: grid;
+    grid-template-columns:repeat(auto-fill, minmax(200px, 1fr));
+    gap: 29px;
+}
+
+.conta-collact form input{
+    width: 1fr;
+    height: 4rem;
+    border: none;
+    border-radius: 1rem;
+    font-size: 1.4rem;
+    padding-left: 1.4rem;
+    box-shadow: inset 6px 6px 10px 0 rgba(0, 0, 0, 0.2), inset -6px -6px 10px 0 rgba(255, 255, 255, 0.5);
+    background: none;
+    font-family: inherit;
+    color: white;
+}
+.conta-collact form input:last-child{
+    background: var(--orang);
+    cursor: pointer;
+}
+
+.conta-collact form textarea{
+    width: 1fr;
+    height: 300px;
+    border: none;
+    border-radius: 1rem;
+    font-size: 1.4rem;
+    padding-left: 1.4rem;
+    box-shadow: inset 6px 6px 10px 0 rgba(0, 0, 0, 0.2), inset -6px -6px 10px 0 rgba(255, 255, 255, 0.5);
+    background: none;
+    font-family: inherit;
+    color: white;
+    resize: none;
+}
+
+.conta-collact form input::placeholder { color: var(--orang); }
+.conta-collact form textarea::placeholder { color: var(--orang); }
+
+
+.conta-submit{
+    background-color: var(--orang);
+}

@@ -1,3 +1,12 @@
 .conta-title{
     margin-top: 3%;
 }
+
+.conta-form{
+    margin-top: 60px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}

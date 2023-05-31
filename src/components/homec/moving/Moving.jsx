@@ -14,7 +14,6 @@ import node from "../../../assets/node.png"
 import ps from "../../../assets/ps.png"
 import radix from "../../../assets/radix.png"
 import typscript from "../../../assets/typscript.png"
-/* import vite from "../../../assets/vite.png" */
 import sass from "../../../assets/sass.png"
 
 

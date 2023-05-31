@@ -1,22 +1,16 @@
 import React from 'react'
 import ParallaxText from './ParallaxText'
-/* import py from "../../../assets/py.png" */
 import js from "../../../assets/js.png"
 import react from "../../../assets/react.png"
 import next from "../../../assets/next.png"
 import bootstrap from "../../../assets/bootstrap.png"
-/* import cplus from "../../../assets/cplus.png" */
 import css from "../../../assets/css.png"
 import es from "../../../assets/es.png"
-/* import git from "../../../assets/git.png" */
-/* import github from "../../../assets/github.png" */
 import html from "../../../assets/html.png"
 import ill from "../../../assets/ill.png"
-/* import mongo from "../../../assets/mongo.png" */
 import motion from "../../../assets/motion.png"
 import mysql from "../../../assets/mysql.png"
 import node from "../../../assets/node.png"
-/* import pr from "../../../assets/pr.png" */
 import ps from "../../../assets/ps.png"
 import radix from "../../../assets/radix.png"
 import typscript from "../../../assets/typscript.png"

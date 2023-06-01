@@ -71,7 +71,7 @@ function Formc() {
 
     <div className='comu-icon'>
     <BsWhatsapp  className='comu-im'/>
-      <span>0963959124014</span>
+      <span>00963959124014</span>
     </div>
 
     

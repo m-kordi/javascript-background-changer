@@ -2,7 +2,7 @@ import React from 'react'
 import "./Titleres.css"
 import {BsFiletypePdf} from "react-icons/bs"
 import {motion} from "framer-motion"
-import myresume from "/Mohammad_Alkordi_Resume.pdf"
+import myresumepdf from "/Mohammad_Alkordi_Resume.pdf"
 
 function Titleres() {
   return (
@@ -13,7 +13,7 @@ function Titleres() {
         <motion.button className='download-res'
             whileHover={{ scale: 1.1 }}
             whileTap={{ scale: 0.9 }}
-            transition={{ type: "spring", stiffness: 400, damping: 17 }}><a href={myresume}  download={myresume}><BsFiletypePdf/><span>download Resume</span></a></motion.button>
+            transition={{ type: "spring", stiffness: 400, damping: 17 }}><a href={myresumepdf}  download={myresumepdf}><BsFiletypePdf/><span>download Resume</span></a></motion.button>
     </div>
   )
 }

@@ -6,7 +6,6 @@ import {motion} from "framer-motion"
 import { FaGithub } from "react-icons/fa";
 import { BsLinkedin } from "react-icons/bs";
 
-import loading from "../../../assets/loading.gif"
 
 
 function Opening() {
@@ -15,7 +14,7 @@ function Opening() {
     <div className="landing-container">
         <div className="landing-text">
           <div className='i-h'>
-            <img src={main} loading='lazy' alt={loading} />
+            <img src={main} loading='lazy' alt="..." />
             <div className='h'>
               <h1>Mohammad Alkordi</h1>
               <h3>Frontend Web Developer</h3>

@@ -13,7 +13,7 @@ import pizza from "../../../assets/pizza.jpg"
 import wavy from "../../../assets/wavy.jpg"
 import {HiCursorClick} from "react-icons/Hi"
 
-import loading from "../../../assets/loading.gif"
+
 
 function Projectsport() {
 	const ref = useRef(null);
@@ -31,7 +31,7 @@ return (
     }}>
 
     <div className="proj-card">
-			<img src={store} loading='lazy' alt={loading} />
+			<img src={store} loading='lazy' alt="..." />
 			<div className="proj-intro">
 				<h1 className="proj-h1">storfy</h1>
 				<p className="proj-p">
@@ -42,7 +42,7 @@ return (
 		</div>
 
 		<div className="proj-card">
-			<img src={speedy} loading='lazy' alt={loading} />
+			<img src={speedy} loading='lazy' alt="..." />
 			<div className="proj-intro">
 				<h1 className="proj-h1">speedy</h1>
 				<p className="proj-p">
@@ -53,7 +53,7 @@ return (
 		</div>
 
 		<div className="proj-card">
-			<img src={calc} loading='lazy' alt={loading} />
+			<img src={calc} loading='lazy' alt="..." />
 			<div className="proj-intro">
 				<h1 className="proj-h1">budget tracker</h1>
 				<p className="proj-p">
@@ -75,7 +75,7 @@ return (
     }}>
 
 <div className="proj-card">
-			<img src={gen} loading='lazy' alt={loading} />
+			<img src={gen} loading='lazy' alt="..." />
 			<div className="proj-intro">
 				<h1 className="proj-h1">serial number generator</h1>
 				<p className="proj-p">
@@ -86,7 +86,7 @@ return (
 		</div>
 
 		<div className="proj-card">
-			<img src={cpita} loading='lazy' alt={loading} />
+			<img src={cpita} loading='lazy' alt="..." />
 			<div className="proj-intro">
 				<h1 className="proj-h1">array letter capitalizer</h1>
 				<p className="proj-p">
@@ -97,7 +97,7 @@ return (
 		</div>
 
 		<div className="proj-card">
-			<img src={counter} loading='lazy' alt={loading} />
+			<img src={counter} loading='lazy' alt="..." />
 			<div className="proj-intro">
 				<h1 className="proj-h1">letter counter</h1>
 				<p className="proj-p">
@@ -119,7 +119,7 @@ return (
     }}>
 
 <div className="proj-card">
-			<img src={pizza} loading='lazy' alt={loading} />
+			<img src={pizza} loading='lazy' alt="..." />
 			<div className="proj-intro">
 				<h1 className="proj-h1">pizza delivery</h1>
 				<p className="proj-p">
@@ -130,7 +130,7 @@ return (
 		</div>
 
 		<div className="proj-card">
-			<img src={wavy} loading='lazy' alt={loading} />
+			<img src={wavy} loading='lazy' alt="..." />
 			<div className="proj-intro">
 				<h1 className="proj-h1">wavy backgroun</h1>
 				<p className="proj-p">
@@ -141,7 +141,7 @@ return (
 		</div>
 
 		<div className="proj-card">
-			<img src={leon} loading='lazy' alt={loading} />
+			<img src={leon} loading='lazy' alt="..." />
 			<div className="proj-intro">
 				<h1 className="proj-h1">leon template</h1>
 				<p className="proj-p">

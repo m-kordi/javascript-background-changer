@@ -2,9 +2,9 @@ import React from 'react'
 import "./Formc.css"
 import {useRef } from 'react';
 import emailjs from '@emailjs/browser';
-import whatsapp from "../../../assets/whatsapp.png"
-import email from "../../../assets/email.png"
 import {motion} from "framer-motion"
+import {TfiEmail} from "react-icons/Tfi"
+import {BsWhatsapp} from "react-icons/bs"
 
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
@@ -65,12 +65,12 @@ function Formc() {
 
 
     <div className='comu-icon'>
-      <img src={email} alt="#" />
+      <TfiEmail  className='comu-im' />
       <span>mh.alkordi@gmail.com</span>
     </div>
 
     <div className='comu-icon'>
-      <img src={whatsapp} alt="#" />
+    <BsWhatsapp  className='comu-im'/>
       <span>0963959124014</span>
     </div>
 
